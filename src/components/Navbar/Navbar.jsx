@@ -22,8 +22,8 @@ const Menu = [
 
 const Navbar = () => {
   return (
-    <div className="bg-white dark:bg-gray-900 dark:text-white ">
-      <div className="container py-3">
+    <div  className="bg-white dark:bg-gray-900 dark:text-white ">
+      <div data-aos='zoom-in' className="container py-3">
         <div className="flex justify-between items-center">
 
           {/* Logo section */}

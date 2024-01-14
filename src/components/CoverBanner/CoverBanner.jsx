@@ -1,9 +1,26 @@
-import React from 'react'
+import React from "react";
+import bgCoverImg from "../../assets/biryani_cover.jpg";
 
 const CoverBanner = () => {
-  return (
-    <div>CoverBanner</div>
-  )
-}
+  const bgImage = {
+    backgroundImage: `url(${bgCoverImg})`,
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    // backgroundAttachment: "fixed",
+    height: "100%",
+    width: "100%",
+  };
 
-export default CoverBanner
+  return (
+    <div style={bgImage}>
+      <div className="h-[300px] flex justify-center items-center text-white">
+        <h1 className="text-3xl sm:text-4xl font-bold">
+          Lorem ipsum dolor sit amet.
+        </h1>
+      </div>
+    </div>
+  );
+};
+
+export default CoverBanner;

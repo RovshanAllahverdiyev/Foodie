@@ -29,14 +29,14 @@ const ServicesData = [
 
 const Services = () => {
   return (
-    <section className='py-20 bg-white dark:bg-gray-900 dark:text-white' id='services'>
+    <section className='py-20 bg-white dark:bg-gray-900 dark:text-white ' id='services'>
       <div className="container">
 
         {/* Title section */}
           <HeaderTitle subTitle='Our Services' title='Services' />
         
         {/* Cart section */}
-        <div data-aos='zoom-in' data-aos-duration='500' className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-24 md:gap-5 place-items-center '>
+        <div data-aos='zoom-in' data-aos-duration='500' className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-24 md:gap-5 place-items-center mt-28'>
           {ServicesData.map((data) => (
             <div key={data.id} className='bg-white dark:bg-gray-800 hover:bg-primary dark:hover:bg-primary hover:text-white relative shadow-xl duration-high group max-w-[250px] rounded-2xl'>
 
